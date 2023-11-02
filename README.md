@@ -5,6 +5,7 @@ En un mundo donde los mutantes son una realidad, un programador se embarca en un
 
 ## Datos de Prueba:
 #### Mutantes:
-- Persona
++ Persona
++ 
 - 
 #### No Mutantes:
