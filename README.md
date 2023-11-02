@@ -14,7 +14,9 @@ El proceso de validación se realiza siguiendo estos pasos:
 ## Datos de Prueba:
 ### Mutantes:
 1. Secuencia de ADN: AAAATC, AATCGG, ATACGT, ATGATG, TTTGGG, TGGTGG
-2. 
+2. Secuencia de ADN: AAAAAA, AATAGC, ATAGCT, AATACG, ATCCAT, GTCGTA
+3. Secuencia de ADN: CTCAAC, TAAATG, CAATAC, AATCGG, TCTCAA, CTCCCC
 ### No Mutantes:
 1. Secuencia de ADN: ATTCGA, TACGAT, CCTGCA, GGGGAT, ATTCCG, TACGTA
-2. 
+2. Secuencia de ADN: CCCCCC, AATAGC, ATAGCT, TAGGCG, GCCTCG, AAGGCT
+3. Secuencia de ADN: TATGCC, CACTTG, ACGTGC, TACGTG, GTGTCG, CAATCG
