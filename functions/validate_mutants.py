@@ -4,7 +4,7 @@ def is_mutant(dna, base):
    v_v = validate_vertical(dna, base)
    v_d_l = validate_diagonal_left(dna, base)
    v_d_r = validate_diagonal_right(dna, base)
-   # print(f"V: {v_v}, H: {v_h}, D_L: {v_d_l}, D_R: {v_d_r}")
+   #print(f"V: {v_v}, H: {v_h}, D_I_D: {v_d_l}, D_D_I: {v_d_r}")
    return True if (v_v + v_h + v_d_l + v_d_r) > 1 else False
 
 # ----------------- Validaciones de Matriz -------------
@@ -83,7 +83,7 @@ def validate_diagonal_right(dna, base):
          if count == len(base): break
          if elm_coincidence == dna[x][y]: count += 1
          else:
-            elm_coincidence = dna[y][x]
+            elm_coincidence = dna[x][y]
             count = 1
      
       if count in [4, 5]: coincidence += 1
@@ -114,7 +114,7 @@ def validate_diagonal_left(dna, base):
          if count == len(base): break
          if elm_coincidence == dna[x][y]: count += 1
          else:
-            elm_coincidence = dna[y][x]
+            elm_coincidence = dna[x][y]
             count = 1
 
       if count in [4, 5]: coincidence += 1
