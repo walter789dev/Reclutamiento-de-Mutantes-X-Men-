@@ -18,5 +18,5 @@ El proceso de validación se realiza siguiendo estos pasos:
 3. Secuencia de ADN: CTCAAC, TAAATG, CAATAC, AATCGG, TCTCAA, CTCCCC
 ### No Mutantes:
 1. Secuencia de ADN: ATTCGA, TACGAT, CCTGCA, GGGGAT, ATTCCG, TACGTA
-2. Secuencia de ADN: CCCCCC, AATAGC, ATAGCT, TAGGCG, GCCTCG, AAGGCT
+2. Secuencia de ADN: CCCCCC, AATAGC, ATAGCT, TAGGCG, GCCTCG, AAGGTT
 3. Secuencia de ADN: TATGCC, CACTTG, ACGTGC, TACGTG, GTGTCG, CAATCG
